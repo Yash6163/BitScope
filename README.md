@@ -183,7 +183,39 @@ Model artifacts saved:
 
 ---
 
-### 5. Pipeline Execution Flow
+
+---
+
+### 5. Raw Data & Feature Engineering Output
+
+<table>
+<tr>
+<td width="60%">
+<img src="assets/raw_data.png" width="100%">
+</td>
+<td width="40%">
+
+**Structured Dataset Snapshot**
+
+- Historical BTC price data (Open, High, Low, Close)  
+- Trading volume information  
+- Technical indicators (RSI, MACD, ATR, Bollinger Bands %)  
+- NLP-derived sentiment scores  
+- Target labels for model training  
+
+This table represents the **final engineered dataset** used by the machine learning model.  
+It combines **market data + technical indicators + sentiment signals** into a unified structure.
+
+Key Insights:
+- Enables feature correlation analysis  
+- Acts as input for XGBoost training  
+- Provides transparency into model decision factors  
+
+</td>
+</tr>
+</table>
+
+### 6. Pipeline Execution Flow
 
 ```bash
 price_fetcher.py → news_scraper.py → process_data.py → train_model.py → streamlit run app.py
