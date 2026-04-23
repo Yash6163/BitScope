@@ -23,9 +23,9 @@
 
 ## Overview
 
-**BitScope** is a financial intelligence tool designed to quantify the "fear and greed" of the cryptocurrency market. By scraping real-time news and social data and processing it through specialized **Natural Language Processing (NLP)** models, BITSCOPE correlates public sentiment with Bitcoin price movements to provide actionable insights.
+**BitScope** is a financial intelligence tool designed to quantify the "fear and greed" of the cryptocurrency market. By scraping real-time news and social data and processing it through specialized **Natural Language Processing (NLP)** models, BitScope correlates public sentiment with Bitcoin price movements to provide actionable insights.
 
-Unlike general sentiment tools, BITSCOPE is optimized for financial vocabulary, allowing it to detect subtle market signals that standard models miss.
+Unlike general sentiment tools, BitScope is optimized for financial vocabulary, allowing it to detect subtle market signals that standard models miss.
 
 ---
 
@@ -58,14 +58,13 @@ The project is built as a modular pipeline, separating data acquisition from mod
 - **Specialized Sentiment Analysis**: Uses FinBERT to understand financial context (e.g., distinguishing "inflation" from "growth").
 - **Volatility Mapping**: Visualizes how sharp drops in sentiment precede price corrections.
 - **Automated Scraping**: Continuous data collection to keep predictions current.
-- **Interactive EDA**: Jupyter notebooks included for deep-diving into historical correlation patterns.
 
 ---
 
 ## Tech Stack
 
 - **Core**: Python 3.10+
-- **Machine Learning**: HuggingFace Transformers, Scikit-learn, XGBoost
+- **Machine Learning**: FinBERT, Scikit-learn, XGBoost
 - **Data Handling**: Pandas, NumPy, BeautifulSoup4
 - **Visualization**: Streamlit, Matplotlib, Plotly
 
@@ -75,7 +74,7 @@ The project is built as a modular pipeline, separating data acquisition from mod
 
 ## Output Demonstration
 
-BITSCOPE processes real-time market data, technical indicators, and sentiment signals to generate actionable trading insights.  
+BitScope processes real-time market data, technical indicators, and sentiment signals to generate actionable trading insights.  
 Below are key outputs from different stages of the system:
 
 ---
