@@ -20,9 +20,8 @@
 <p align="center">
 
 </p>
----
 
-## 📈 Overview
+## Overview
 
 **BITSCOPE** is a financial intelligence tool designed to quantify the "fear and greed" of the cryptocurrency market. By scraping real-time news and social data and processing it through specialized **Natural Language Processing (NLP)** models, BITSCOPE correlates public sentiment with Bitcoin price movements to provide actionable insights.
 
@@ -30,7 +29,7 @@ Unlike general sentiment tools, BITSCOPE is optimized for financial vocabulary, 
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 The project is built as a modular pipeline, separating data acquisition from model inference:
 
@@ -44,7 +43,7 @@ The project is built as a modular pipeline, separating data acquisition from mod
 
 ---
 
-## ⚙️ The Pipeline
+## The Pipeline
 
 1. **Extraction**: Automated scrapers gather the latest Bitcoin-related news from high-authority sources.
 2. **NLP Processing**: Text data is passed through **FinBERT**, a BERT model specifically pre-trained on financial corpora, to generate high-accuracy sentiment scores.
@@ -54,7 +53,7 @@ The project is built as a modular pipeline, separating data acquisition from mod
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 - **Specialized Sentiment Analysis**: Uses FinBERT to understand financial context (e.g., distinguishing "inflation" from "growth").
 - **Volatility Mapping**: Visualizes how sharp drops in sentiment precede price corrections.
@@ -63,7 +62,7 @@ The project is built as a modular pipeline, separating data acquisition from mod
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Core**: Python 3.10+
 - **Machine Learning**: HuggingFace Transformers, Scikit-learn, XGBoost
@@ -74,7 +73,7 @@ The project is built as a modular pipeline, separating data acquisition from mod
 
 ---
 
-## 📊 Output Demonstration
+## Output Demonstration
 
 BITSCOPE processes real-time market data, technical indicators, and sentiment signals to generate actionable trading insights.  
 Below are key outputs from different stages of the system:
